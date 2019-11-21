@@ -1,4 +1,4 @@
-package com.jdh.blackjack;
+package com.jdh.blackjack.examples;
 
 import java.util.ArrayList;
 
