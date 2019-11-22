@@ -7,23 +7,27 @@ import java.util.ArrayList;
 
 public class Hand {
 
-    private static Hand hand;
-
+    /** ArrayList that contains the Card objects in the users hand */
     private ArrayList<Card> cardList = new ArrayList<>();
 
-    private Hand() {}
-
+    /** int value that represents the total points in its hand */
     private int totalPoints = 0;
 
-    private boolean hasAceInHand = false;
+    /** int constant that represents the difference in points of an ace card and one point */
+    private static final int ACE_CARD_SUBTRACTION = 10;
 
-    public static Hand getInstance() {
-        if (hand == null) {
-            hand = new Hand();
-        }
-        return hand;
+    public Hand() {
+//        cardList.add(new Card(Suit.CLUBS, Face.ACE));
+//        cardList.add(new Card(Suit.HEARTS, 3));
+//        cardList.add(new Card(Suit.CLUBS, Face.ACE));
+//
+//        totalPoints = 25;
     }
 
+    /**
+     * This method adds a Card object to the ArrayList and computes the totalPoints variable
+     * @param card
+     */
     public void obtainCardFromDeck(Card card) {
         cardList.add(card);
         totalPoints += card.getPoints();
@@ -33,6 +37,7 @@ public class Hand {
      * This method prints out the cards in hand and total points
      */
     public void showHand() {
+        System.out.println("==============================================");
         for(Card card : cardList) {
             System.out.println(card);
         }
@@ -43,10 +48,14 @@ public class Hand {
         return totalPoints;
     }
 
-    public boolean hasAceInHand() {
+    /**
+     * This method checks if the ArrayList contains an ace which has eleven points
+     * @return boolean that represents whether the ArrayList contains an ace with eleven points
+     */
+    public boolean hasAceInHandWithElevenPoints() {
         boolean hasAceInHand = false;
         for (Card card : cardList){
-            if (card.getFace() == Face.ACE) {
+            if (card.getFace() == Face.ACE && card.getPoints() == Card.ACE_POINTS) {
                 hasAceInHand = true;
                 break;
             }
@@ -54,15 +63,25 @@ public class Hand {
         return hasAceInHand;
     }
 
-    public Card returnAce() {
-        Card ace = null;
+    /**
+     * This method does a couple of things if the ace card with eleven points is found:
+     * 1. Sets the card points from 11 to 1
+     * 2. Subtracts totalPoints with 10
+     * 3. Show "new" cards in hand
+     */
+    public void setAcePointsToOne() {
         for (Card card : cardList){
-            if (card.getFace() == Face.ACE) {
-                ace = card;
+            if (card.getFace() == Face.ACE && card.getPoints() == Card.ACE_POINTS) {
+                card.setPoints(1);
+                this.totalPoints -= ACE_CARD_SUBTRACTION;
+
+                System.out.println("==============================================");
+                System.out.println("Ace points converted from 11 to 1");
+
+                showHand();
                 break;
             }
         }
-        return ace;
     }
 
 }

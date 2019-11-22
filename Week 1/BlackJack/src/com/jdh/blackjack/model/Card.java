@@ -3,20 +3,24 @@ package com.jdh.blackjack.model;
 public class Card {
 
     /** constant int that represents the points for the ace card */
-    private static final int ACE_POINTS = 11;
+    public static final int ACE_POINTS = 11;
 
     /** constant int that represents the points for the Jack, Queen and King face cards */
     private static final int JACK_QUEEN_KING_POINTS = 10;
 
+    /** Suit enum that represents the symbol of the card */
     private Suit suit;
 
+    /** int value that represents the number of the card */
     private int number;
 
+    /** Face enum that represents the face symbol of the card */
     private Face face;
 
+    /** int variable that contains the value of the card */
     private int points;
 
-   public Card(Suit suit, int number) {
+    public Card(Suit suit, int number) {
         this.suit = suit;
         this.number = number;
         this.points = number;
@@ -28,29 +32,10 @@ public class Card {
         this.points = (face == Face.ACE) ? ACE_POINTS : JACK_QUEEN_KING_POINTS;
     }
 
-    public Suit getSuit() {
-        return suit;
-    }
-
-    public void setSuit(Suit suit) {
-        this.suit = suit;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
     public Face getFace() {
         return face;
     }
 
-    public void setFace(Face face) {
-        this.face = face;
-    }
 
     public int getPoints() {
         return points;
