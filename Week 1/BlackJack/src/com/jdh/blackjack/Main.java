@@ -1,7 +1,6 @@
 package com.jdh.blackjack;
 
 import com.jdh.blackjack.manager.Dealer;
-import com.jdh.blackjack.manager.Hand;
 import com.jdh.blackjack.model.Player;
 
 import java.util.Scanner;
@@ -10,10 +9,9 @@ public class Main {
 
     /** Dealer object that is a singleton instance */
     final static Dealer dealer = Dealer.getInstance();
-    final static Player player = Player.getInstance();
 
-//    /** Hand object that is a singleton instance */
-//    final static Hand hand = new Hand();
+    /** Dealer object that is a singleton instance */
+    final static Player player = Player.getInstance();
 
     /** Scanner object to handle userinput */
     final static Scanner scanner = new Scanner(System.in);
