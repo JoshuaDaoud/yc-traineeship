@@ -1,6 +1,9 @@
-package com.jdh.eetkraam.model;
+package com.jdh.eetkraam.model.ingredient;
 
-public class Ingredient {
+/**
+ * This class represents an ingredient for a burger
+ */
+public abstract class Ingredient {
 
     /** This String represents the name of the ingredient */
     private String name;
@@ -8,11 +11,16 @@ public class Ingredient {
     /** This double represents the price of the ingredient */
     private double price;
 
+    public Ingredient(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    void setName(String name) {
         this.name = name;
     }
 
@@ -20,7 +28,7 @@ public class Ingredient {
         return price;
     }
 
-    public void setPrice(double price) {
+    void setPrice(double price) {
         this.price = price;
     }
 
