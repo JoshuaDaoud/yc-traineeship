@@ -1,9 +1,11 @@
 package com.jdh.eetkraam.model.ingredient;
 
+import com.jdh.eetkraam.cooking.Preparable;
+
 /**
  * This class represents an ingredient for a burger
  */
-public abstract class Ingredient {
+public abstract class Ingredient implements Preparable {
 
     /** This String represents the name of the ingredient */
     private String name;
@@ -11,25 +13,33 @@ public abstract class Ingredient {
     /** This double represents the price of the ingredient */
     private double price;
 
-    public Ingredient(String name, double price) {
+    private boolean isPrepared;
+
+    private int preparationTimeInMilliSeconds;
+
+    public Ingredient(String name, double price, int preparationTimeInMilliSeconds) {
         this.name = name;
         this.price = price;
+        this.preparationTimeInMilliSeconds = preparationTimeInMilliSeconds;
     }
 
     public String getName() {
         return name;
     }
 
-    void setName(String name) {
-        this.name = name;
-    }
-
     public double getPrice() {
         return price;
     }
 
-    void setPrice(double price) {
-        this.price = price;
+    public int getPreparationTimeInMilliSeconds() {
+        return preparationTimeInMilliSeconds;
+    }
+
+    @Override
+    public void setPrepared(boolean isPrepared) {
+        System.out.println("===================================");
+        System.out.println(name + " is being prepared");
+        this.isPrepared = isPrepared;
     }
 
     @Override

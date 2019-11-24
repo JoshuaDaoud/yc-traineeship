@@ -6,7 +6,7 @@ public class CashDesk {
 
     private CashDesk() {}
 
-    public static CashDesk getInstance() {
+    static CashDesk getInstance() {
         if (cashDesk == null) {
             cashDesk = new CashDesk();
         }

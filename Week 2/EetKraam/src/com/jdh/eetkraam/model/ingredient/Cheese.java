@@ -8,7 +8,15 @@ public class Cheese extends Ingredient {
     /** This double represents the price of the ingredient */
     private static double price = 1.50;
 
+    private static int preparationTimeInMilliSeconds = 1000;
+
     public Cheese() {
-        super(name, price);
+        super(name, price, preparationTimeInMilliSeconds);
     }
+
+    @Override
+    public int getPreparationTimeInMilliSeconds() {
+        return preparationTimeInMilliSeconds;
+    }
+
 }

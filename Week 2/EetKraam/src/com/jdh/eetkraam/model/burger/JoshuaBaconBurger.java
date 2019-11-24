@@ -1,5 +1,6 @@
 package com.jdh.eetkraam.model.burger;
 
+import com.jdh.eetkraam.cooking.Grillable;
 import com.jdh.eetkraam.model.ingredient.*;
 
 import java.util.ArrayList;
@@ -12,9 +13,10 @@ public class JoshuaBaconBurger extends Burger {
 
     private final static List<Ingredient> ingredients = new ArrayList<>();
 
+    private static Ingredient baseIngredient = new Beef();
+
     {
-        System.out.println("Adding default ingredients to the JBB");
-        ingredients.add(new Beef());
+        ingredients.add(baseIngredient);
         ingredients.add(new Tomato());
         ingredients.add(new Cheese());
         ingredients.add(new Bacon());
@@ -22,5 +24,10 @@ public class JoshuaBaconBurger extends Burger {
 
     public JoshuaBaconBurger() {
         super(name, ingredients);
+    }
+
+    @Override
+    public Ingredient getBaseIngredient() {
+        return baseIngredient;
     }
 }

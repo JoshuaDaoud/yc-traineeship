@@ -12,14 +12,20 @@ public class ChickenBurger extends Burger {
 
     private final static List<Ingredient> ingredients = new ArrayList<>();
 
+    private static Ingredient baseIngredient = new Chicken();
+
     {
-        System.out.println("Adding default ingredients to the cheeseburger");
-        ingredients.add(new Chicken());
+        ingredients.add(baseIngredient);
         ingredients.add(new Tomato());
         ingredients.add(new Cheese());
     }
 
     public ChickenBurger() {
         super(name, ingredients);
+    }
+
+    @Override
+    public Ingredient getBaseIngredient() {
+        return baseIngredient;
     }
 }

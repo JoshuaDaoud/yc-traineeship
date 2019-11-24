@@ -60,9 +60,19 @@ public abstract class Burger {
      * This method returns the total burgerprice by summing up the ingredient prices
      * @return
      */
-    public double getBurgerPrice() {
+    public double getTotalBurgerPrice() {
         return ingredients.stream().mapToDouble(p -> p.getPrice()).sum();
     }
+
+    /**
+     * This method returns the preparationtime of all ingredients summed up
+     * @return int that represent the preparationtime in milliseconds
+     */
+    public int getTotalBurgerPreparationTime() {
+        return ingredients.stream().mapToInt(p -> p.getPreparationTimeInMilliSeconds()).sum();
+    }
+
+    public abstract Ingredient getBaseIngredient();
 
     @Override
     public String toString() {

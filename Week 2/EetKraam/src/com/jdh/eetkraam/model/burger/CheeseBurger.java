@@ -15,9 +15,10 @@ public final class CheeseBurger extends Burger {
 
     private final static List<Ingredient> ingredients = new ArrayList<>();
 
+    private static Ingredient baseIngredient = new Beef();
+
     {
-        System.out.println("Adding default ingredients to cheeseburger");
-        ingredients.add(new Beef());
+        ingredients.add(baseIngredient);
         ingredients.add(new Tomato());
         ingredients.add(new Cheese());
         ingredients.add(new Jalapeno());
@@ -27,4 +28,8 @@ public final class CheeseBurger extends Burger {
         super(name, ingredients);
     }
 
+    @Override
+    public Ingredient getBaseIngredient() {
+        return baseIngredient;
+    }
 }
