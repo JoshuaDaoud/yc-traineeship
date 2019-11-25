@@ -14,7 +14,7 @@ public class ChickenBurger extends Burger {
 
     private static Ingredient baseIngredient = new Chicken();
 
-    {
+    static {
         ingredients.add(baseIngredient);
         ingredients.add(new Tomato());
         ingredients.add(new Cheese());

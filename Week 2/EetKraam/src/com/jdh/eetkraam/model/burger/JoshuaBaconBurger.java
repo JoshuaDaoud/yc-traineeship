@@ -15,7 +15,7 @@ public class JoshuaBaconBurger extends Burger {
 
     private static Ingredient baseIngredient = new Beef();
 
-    {
+    static {
         ingredients.add(baseIngredient);
         ingredients.add(new Tomato());
         ingredients.add(new Cheese());

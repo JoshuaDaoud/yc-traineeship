@@ -25,13 +25,11 @@ final class Cook {
      * @param burger
      */
     void prepareDish(Burger burger) {
-        WaitingQueue queue = WaitingQueue.getInstance();
         Burger grilledBurger = burger;
         Ingredient baseIngredient = null;
 
-
-
-        for (Ingredient ingredient : grilledBurger.getIngredients()) {
+        for (Iterator<Ingredient> iterator = grilledBurger.getIngredients().iterator(); iterator.hasNext();) {
+            Ingredient ingredient = iterator.next();
             try {
                 ingredient.setPrepared(true);
                 Thread.sleep(ingredient.getPreparationTimeInMilliSeconds());

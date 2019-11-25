@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c964ae6-eeb5-4a78-9921-21ed79257580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/Grillable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/Preparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/exception/NoCustomerInLineException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/CashDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/CashDesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/Cook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/FoodTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/FoodTruck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/Burger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/CheeseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/CheeseBurger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/ChickenBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/ChickenBurger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/JoshuaBaconBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/JoshuaBaconBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Bacon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Bacon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Beef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Beef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Cheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Jalapeno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Jalapeno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Salad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Salad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Tomato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Tomato.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,28 +23,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/FoodTruck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="266">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1716#1717#0" expanded="true" />
-                <element signature="e#1841#1842#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/Cook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="183">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +47,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Ingredient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="137">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding>
                 <element signature="e#855#856#0" expanded="true" />
                 <element signature="e#907#908#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Beef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding>
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,18 +120,11 @@
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/CashDesk.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/PrepareFood.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/PrepareBurger.java" />
-        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/ChickenBurger.java" />
-        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/CheeseBurger.java" />
-        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/JoshuaBaconBurger.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/CookingThread.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/Grillable.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/exception/NoCustomerInLine.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/Burger.java" />
-        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/FoodTruck.java" />
-        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Beef.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/Preparable.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Tomato.java" />
@@ -157,6 +133,13 @@
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Chicken.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Jalapeno.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Salad.java" />
+        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Beef.java" />
+        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/FoodTruck.java" />
+        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/Burger.java" />
+        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/CheeseBurger.java" />
+        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/ChickenBurger.java" />
+        <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/JoshuaBaconBurger.java" />
         <option value="$PROJECT_DIR$/src/com/jdh/eetkraam/manager/Cook.java" />
       </list>
     </option>
@@ -251,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574625386444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574629274338" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -289,12 +272,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574454170271</updated>
-      <workItem from="1574454174191" duration="51871000" />
+      <workItem from="1574454174191" duration="55426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51871000" />
+    <option name="totallyTimeSpent" value="55426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -305,7 +288,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -316,7 +299,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,10 +366,10 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/Burger.java</url>
+          <line>71</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -498,26 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/JoshuaBaconBurger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/ChickenBurger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -528,61 +491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#1841#1842#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/Burger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#1978#1979#0" expanded="true" />
-            <element signature="e#2058#2059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/Grillable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -595,17 +507,6 @@
             <element signature="e#447#448#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Chicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -658,20 +559,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/CheeseBurger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="43">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/Burger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Chicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/ChickenBurger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/burger/JoshuaBaconBurger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/Grillable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Beef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />
@@ -683,15 +653,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/cooking/Preparable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/model/ingredient/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="137">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
             <element signature="e#855#856#0" expanded="true" />
             <element signature="e#907#908#0" expanded="true" />
@@ -699,10 +669,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/WaitingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/FoodTruck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="266">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -711,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdh/eetkraam/manager/Cook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="183">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

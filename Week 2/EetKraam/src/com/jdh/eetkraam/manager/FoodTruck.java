@@ -52,7 +52,6 @@ public final class FoodTruck {
                 cook.prepareDish(firstCustomer.getBurger());
 
                 obtainProfit(firstCustomer.getBurger(), firstCustomer.getTip());
-
                 waitingQueue.dequeue();
             }
         }
@@ -61,6 +60,7 @@ public final class FoodTruck {
     private void obtainProfit(Burger burger, double tip) {
         profit += burger.getTotalBurgerPrice();
         System.out.println("===================================");
+        System.out.println("Customer payed " + burger.getTotalBurgerPrice());
         System.out.println("Profit is now: " + profit);
     }
 

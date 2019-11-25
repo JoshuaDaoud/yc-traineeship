@@ -27,7 +27,7 @@ public class Beef extends Ingredient implements Grillable {
     @Override
     public void setIsGrilled(boolean isGrilled) {
         System.out.println("===================================");
-        System.out.println("Beef is being grilled");
+        System.out.println(name + " is being grilled");
         this.isGrilled = isGrilled;
     }
 

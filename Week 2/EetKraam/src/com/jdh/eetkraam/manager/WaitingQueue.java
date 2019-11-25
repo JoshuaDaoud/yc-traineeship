@@ -1,7 +1,5 @@
 package com.jdh.eetkraam.manager;
 
-import com.jdh.eetkraam.model.Customer;
-
 import java.util.Iterator;
 
 final class WaitingQueue<Customer> implements Iterable<Customer> {
@@ -65,7 +63,7 @@ final class WaitingQueue<Customer> implements Iterable<Customer> {
         }
         N--;
         System.out.println("===================================");
-        System.out.println("Customer is served");
+        System.out.println("Customer is served and leaves the waiting line...");
         return firstCustomer;
     }
 
