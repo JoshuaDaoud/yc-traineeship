@@ -24,6 +24,11 @@ public class Customer {
         System.out.println("===================================");
         System.out.println("Customer gets in line...");
         this.burger = chooseRandomBurger();
+    }
+
+    public Customer() { }
+
+    public Customer(double tip) {
         this.tip = setRandomTip();
     }
 
@@ -33,6 +38,10 @@ public class Customer {
 
     public double getTip() {
         return tip;
+    }
+
+    public boolean hasTip() {
+        return Double.isNaN(this.tip);
     }
 
     /**

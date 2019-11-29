@@ -1,19 +1,10 @@
 package com.jdh.eetkraam.manager;
 
-import java.util.Iterator;
+import com.jdh.eetkraam.model.Customer;
 
-final class WaitingQueue<Customer> implements Iterable<Customer> {
+final class WaitingQueue {
 
-    private static WaitingQueue waitingQueue;
-
-    private WaitingQueue() { }
-
-    static WaitingQueue getInstance() {
-        if (waitingQueue == null) {
-            waitingQueue = new WaitingQueue();
-        }
-        return waitingQueue;
-    }
+    WaitingQueue() { }
 
     private Node first;
     private Node last;
@@ -71,22 +62,4 @@ final class WaitingQueue<Customer> implements Iterable<Customer> {
         return first.customer;
     }
 
-    public Iterator<Customer> iterator() {
-        return new ListIterator();
-    }
-
-    private class ListIterator implements Iterator<Customer> {
-        private Node current = first;
-
-        public boolean hasNext() {
-            return current != null;
-        }
-
-        public void remove() { }
-        public Customer next() {
-            Customer customer = current.customer;
-            current = current.next;
-            return customer;
-        }
-    }
 }

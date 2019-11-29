@@ -7,15 +7,17 @@ import java.util.Random;
 
 public final class FoodTruck {
 
+    /** FoodTruck singleton instance */
     private static FoodTruck foodTruck;
 
-    private final CashDesk cashDesk = CashDesk.getInstance();
+    /** Cook object that is responsible for preparing the dishes */
+    private final Cook cook = new Cook();
 
-    private final Cook cook = Cook.getInstance();
+    /** WaitingQueue singleton instance */
+    private final WaitingQueue waitingQueue = new WaitingQueue();
 
-    private final WaitingQueue<Customer> waitingQueue = WaitingQueue.getInstance();
-
-    private static double profit = 0;
+    /** CashDesk singleton instance */
+    private static CashDesk cashDesk = CashDesk.getInstance();
 
     private FoodTruck() { }
 
@@ -23,6 +25,10 @@ public final class FoodTruck {
         System.out.println("The foodtruck is open for business!");
     }
 
+    /**
+     * This method returns a single instance of the class
+     * @return FoodTruck
+     */
     public static FoodTruck getInstance() {
         if (foodTruck == null) {
             foodTruck = new FoodTruck();
@@ -30,10 +36,11 @@ public final class FoodTruck {
         return foodTruck;
     }
 
+    /**
+     * This method is the start of the application
+     * @throws NoCustomerInLineException
+     */
     public void openForBusiness() throws NoCustomerInLineException {
-
-        synchronized (WaitingQueue.class) {
-
             Thread thread = new WaitingLineThread();
             thread.start();
 
@@ -43,7 +50,7 @@ public final class FoodTruck {
                 e.printStackTrace();
             }
 
-            while (true) {
+            while (true) { //TODO:
                 if (waitingQueue.isEmpty()) {
                     throw new NoCustomerInLineException("Waiting line is empty");
                 }
@@ -54,16 +61,23 @@ public final class FoodTruck {
                 obtainProfit(firstCustomer.getBurger(), firstCustomer.getTip());
                 waitingQueue.dequeue();
             }
-        }
     }
 
+    /**
+     * This method prints out the current profit
+     * @param burger
+     * @param tip
+     */
     private void obtainProfit(Burger burger, double tip) {
-        profit += burger.getTotalBurgerPrice();
+        cashDesk.addProfit(burger.getTotalBurgerPrice());
         System.out.println("===================================");
         System.out.println("Customer payed " + burger.getTotalBurgerPrice());
-        System.out.println("Profit is now: " + profit);
+        System.out.println("Profit is now: " + cashDesk.getProfit());
     }
 
+    /**
+     * This inner class runs in a different thread where Customer objects are randomly added in the waitingline
+     */
     private class WaitingLineThread extends Thread {
 
         Random random = new Random();

@@ -9,17 +9,6 @@ import java.util.Iterator;
 
 final class Cook {
 
-    private static Cook cook;
-
-    private Cook (){}
-
-    static Cook getInstance() {
-        if (cook == null) {
-            cook = new Cook();
-        }
-        return cook;
-    }
-
     /**
      * This method will start the preparation of the burger dish
      * @param burger

@@ -1,6 +1,5 @@
 package com.jdh.eetkraam.model.burger;
 
-import com.jdh.eetkraam.cooking.Grillable;
 import com.jdh.eetkraam.model.ingredient.*;
 
 import java.util.ArrayList;
@@ -11,6 +10,7 @@ public class JoshuaBaconBurger extends Burger {
     /** Name of the burger */
     private final static String name = "JBB";
 
+    /** List containing all ingredients for this burger */
     private final static List<Ingredient> ingredients = new ArrayList<>();
 
     private static Ingredient baseIngredient = new Beef();

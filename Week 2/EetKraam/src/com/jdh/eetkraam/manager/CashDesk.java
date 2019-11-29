@@ -1,8 +1,12 @@
 package com.jdh.eetkraam.manager;
 
-public class CashDesk {
+final class CashDesk {
 
+    /** Singleton CashDesk instance */
     private static CashDesk cashDesk;
+
+    /** double that represents the profit */
+    private static double profit = 0;
 
     private CashDesk() {}
 
@@ -13,5 +17,11 @@ public class CashDesk {
         return cashDesk;
     }
 
+    double getProfit() {
+        return profit;
+    }
 
+    void addProfit(double profit) {
+        this.profit += profit;
+    }
 }
